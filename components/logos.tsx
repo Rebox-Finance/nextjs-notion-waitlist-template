@@ -38,10 +38,10 @@ export default function Logos() {
       <motion.div
         variants={itemVariants}
         className="mt-4 grid w-full grid-cols-2 items-center justify-center gap-4 md:mt-6 md:grid-cols-3 md:gap-6">
-        {logos.map((default copy, index) => (
+        {logos.map((logo, index) => (
           <Link
             key={index}
-            href={default copy.href}
+            href={logo.href}
             rel="noopener noreferrer"
             target="_blank"
             className="flex h-24 items-center justify-center rounded-lg border bg-zinc-900 p-8 transition-all duration-150 ease-in-out md:hover:border-zinc-700 md:hover:bg-accent">
