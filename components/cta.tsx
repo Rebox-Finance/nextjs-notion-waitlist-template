@@ -21,7 +21,7 @@ export default function CTA() {
       </motion.div>
 
       <motion.img
-        src="/"
+        src="/default copy.svg"
         alt=""
         className="mx-auto h-24 w-24"
         variants={itemVariants}
