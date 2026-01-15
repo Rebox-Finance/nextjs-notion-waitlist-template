@@ -46,7 +46,7 @@ export default function Logos() {
             target="_blank"
             className="flex h-24 items-center justify-center rounded-lg border bg-zinc-900 p-8 transition-all duration-150 ease-in-out md:hover:border-zinc-700 md:hover:bg-accent">
             <Image
-              src={default copy.src}
+              src={logo.src}
               alt={logo.alt}
               width={100}
               height={100}
