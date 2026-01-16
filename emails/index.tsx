@@ -29,8 +29,8 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
         />
         <Text style={greeting}>Hi {userFirstname},</Text>
         <Text style={paragraph}>
-          Thanks for joining the waitlist for our Next.js + Notion CMS waitlist
-          template! I'm Lakshay, the developer behind this project. I'm glad to
+          Thanks for joining the ReboxFinance Waitlist!
+          I'm Lakshay, the developer behind this project. I'm glad to
           have you on board.
         </Text>
         <Text style={paragraph}>
@@ -55,7 +55,7 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
         </Text>
         <Hr style={hr} />
         <Text style={footer}>
-          You received this email because you signed up for the Notion waitlist.
+          You received this email because you signed up for the ReboxFinance waitlist.
           If you believe this is a mistake, feel free to ignore this email.
         </Text>
       </Container>
