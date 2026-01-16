@@ -37,13 +37,13 @@ export default function Logos() {
           href={logos[0].href}
           rel="noopener noreferrer"
           target="_blank"
-          className="flex h-24 items-center justify-center rounded-lg border bg-zinc-900 p-8 transition-all duration-150 ease-in-out md:hover:border-zinc-700 md:hover:bg-accent">
+          className="flex items-center justify-center transition-all duration-150 ease-in-out hover:opacity-80">
           <Image
             src={logos[0].src}
             alt={logos[0].alt}
-            width={100}
-            height={100}
-            className="h-auto w-32 opacity-85"
+            width={200}
+            height={200}
+            className="h-auto w-48 opacity-85"
           />
         </Link>
       </motion.div>
