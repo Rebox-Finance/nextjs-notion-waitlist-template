@@ -20,13 +20,6 @@ export default function CTA() {
         </div>
       </motion.div>
 
-      <motion.img
-        src="/default copy.svg"
-        alt=""
-        className="mx-auto h-24 w-24"
-        variants={itemVariants}
-      />
-
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-3xl font-medium tracking-tighter sm:text-5xl"
