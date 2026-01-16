@@ -30,7 +30,7 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-3xl font-medium tracking-tighter sm:text-5xl"
-          text="The Future of Investment is Here    Join the revolution in investing."
+          text="The future of global financial marketplace for individuals and businesses!"
         />
       </motion.div>
 
