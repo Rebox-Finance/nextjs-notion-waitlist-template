@@ -30,7 +30,7 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="mx-auto max-w-[27rem] pt-1.5 text-center text-base text-zinc-300 sm:text-lg"
-          text="Join the waitlist to get early access! Be among the first to access our innovative investment platform"
+          text="Join the waitlist for early access! Be among the first to experience our innovative investment platform."
           duration={0.8}
         />
       </motion.div>
