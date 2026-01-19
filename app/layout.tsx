@@ -9,7 +9,7 @@ const FigtreeFont = Figtree({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ReboxFinance Waitlist",
   description:
-    "ReboxFinance Waitlist",
+    "Rebox Finance | Investment marketplace empowering and unlocking growth for individuals and businesses across emerging markets.",
 };
 
 export default function RootLayout({
