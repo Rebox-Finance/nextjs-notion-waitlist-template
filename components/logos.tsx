@@ -22,14 +22,6 @@ export default function Logos() {
         />
       </motion.div>
 
-      <motion.div variants={itemVariants}>
-        <TextBlur
-          className="text-center text-base text-zinc-300 sm:text-lg"
-          text="Transparent and accessible investment tools for individuals and businesses"
-          duration={0.8}
-        />
-      </motion.div>
-
       <motion.div
         variants={itemVariants}
         className="mt-4 flex w-full items-center justify-center md:mt-6">
