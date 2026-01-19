@@ -5,7 +5,7 @@ import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import TextBlur from "./ui/text-blur";
 
 const logos = [
-  { href: "https://reboxfinance.com", src: "/default copy.svg", alt: "ReboxLogo" },
+  { href: "https://reboxfinance.com", src: "/defaultr.png", alt: "ReboxLogo" },
 ];
 
 export default function Logos() {
